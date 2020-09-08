@@ -1,10 +1,33 @@
+* {
 
-span {
-  content: "\2620";
+
+margin : 0;
+padding: 0;
+
 }
 
-.logo{
 
-width: 30px;
-width: 30px;
+.background-img {
+
+
+
+    background-image: url("https://i.imgur.com/rpJGdix.jpg");
 }
+
+
+.my-hub{
+
+background-color: #e2e8f0;
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+
+    .text-about-me{
+
+        text-align: center;
+    }
+  }
